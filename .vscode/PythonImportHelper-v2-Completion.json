@@ -1,0 +1,83 @@
+[
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "A_Bit",
+        "description": "A_Bit",
+        "peekOfCode": "n = int(input())\nx = 0\nfor _ in range(n):\n    statement = input()\n    if \"++\" in statement:\n        x += 1\n    else:\n        x -= 1\nprint(x)",
+        "detail": "A_Bit",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "A_Bit",
+        "description": "A_Bit",
+        "peekOfCode": "x = 0\nfor _ in range(n):\n    statement = input()\n    if \"++\" in statement:\n        x += 1\n    else:\n        x -= 1\nprint(x)",
+        "detail": "A_Bit",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "A_Next_Round",
+        "description": "A_Next_Round",
+        "peekOfCode": "scores = list(map(int, input().split()))\nthreshold = scores[k-1]\ncount = 0\nfor score in scores:\n    if score >= threshold and score > 0:\n        count += 1\nprint(count)",
+        "detail": "A_Next_Round",
+        "documentation": {}
+    },
+    {
+        "label": "threshold",
+        "kind": 5,
+        "importPath": "A_Next_Round",
+        "description": "A_Next_Round",
+        "peekOfCode": "threshold = scores[k-1]\ncount = 0\nfor score in scores:\n    if score >= threshold and score > 0:\n        count += 1\nprint(count)",
+        "detail": "A_Next_Round",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "A_Next_Round",
+        "description": "A_Next_Round",
+        "peekOfCode": "count = 0\nfor score in scores:\n    if score >= threshold and score > 0:\n        count += 1\nprint(count)",
+        "detail": "A_Next_Round",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "A_Team",
+        "description": "A_Team",
+        "peekOfCode": "n = int(input())\ncount = 0\nfor _ in range(n):\n    if sum(list(map(int, input().split()))) >= 2:\n        count += 1\nprint(count)",
+        "detail": "A_Team",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "A_Team",
+        "description": "A_Team",
+        "peekOfCode": "count = 0\nfor _ in range(n):\n    if sum(list(map(int, input().split()))) >= 2:\n        count += 1\nprint(count)",
+        "detail": "A_Team",
+        "documentation": {}
+    },
+    {
+        "label": "w",
+        "kind": 5,
+        "importPath": "A_Watermelon",
+        "description": "A_Watermelon",
+        "peekOfCode": "w = int(input())\nif w % 2 == 0 and w != 2:\n    print(\"YES\")\nelse:\n    print(\"NO\")",
+        "detail": "A_Watermelon",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "A_Way_Too_Long_Words",
+        "description": "A_Way_Too_Long_Words",
+        "peekOfCode": "t = int(input())\nfor i in range(t):\n    data = input()\n    if len(data) <= 10:\n        print(data)\n    else:\n        print(data[0] + str(len(data)-2) + data[-1])",
+        "detail": "A_Way_Too_Long_Words",
+        "documentation": {}
+    }
+]
