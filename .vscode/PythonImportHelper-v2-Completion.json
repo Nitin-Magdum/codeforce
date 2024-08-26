@@ -18,6 +18,24 @@
         "documentation": {}
     },
     {
+        "label": "isSorted",
+        "kind": 2,
+        "importPath": "A_Halloumi_Boxes",
+        "description": "A_Halloumi_Boxes",
+        "peekOfCode": "def isSorted(arr,n):\n    for i in range(1,n):\n        if arr[i]<arr[i-1]:\n            return False\n    return True\nt =int(input())\nfor _ in range(t):\n    n,k=map(int,input().split())\n    arr=list(map(int,input().split()))\n    if isSorted(arr,n):",
+        "detail": "A_Halloumi_Boxes",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_tank_size",
+        "kind": 2,
+        "importPath": "A_Line_Trip",
+        "description": "A_Line_Trip",
+        "peekOfCode": "def minimum_tank_size(x, stations):\n    stations = [0] + stations + [x]\n    max_gap = 0\n    for i in range(len(stations) - 1):\n        temp_gap = stations[i+1] - stations[i]\n        if stations[i+1] == stations[-1]:\n            temp_gap += temp_gap\n            max_gap = max(max_gap, temp_gap)\n            break\n        else:",
+        "detail": "A_Line_Trip",
+        "documentation": {}
+    },
+    {
         "label": "scores",
         "kind": 5,
         "importPath": "A_Next_Round",
